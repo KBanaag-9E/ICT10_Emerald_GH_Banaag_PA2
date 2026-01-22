@@ -13,5 +13,7 @@ def students_classification(e):
         display(f"Bergamo 3", target="result")
     elif grade >= 75 and grade <= 85:
         display(f"Perugia 1", target="result")
-    else:
+    elif grade >= 65 and grade <= 74:
         display(f"Perugia 2", target="result")
+    else:
+        pass
